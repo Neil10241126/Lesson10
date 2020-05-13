@@ -10,3 +10,8 @@ bemp = 30 # 可還數量
 for youbike in youbikes:
     if int(youbike.get('sbi')) >= sbi and int(youbike.get('bemp')) >= bemp:
         print(youbike.get('sna'), youbike.get('sbi'), youbike.get('bemp'))
+
+
+
+
+
